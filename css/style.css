@@ -891,7 +891,7 @@ html {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #ffffff;
   background-color: #ffffff;
@@ -1095,7 +1095,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 50px;
 }
 .lead {
   margin-bottom: 20px;
@@ -6185,7 +6185,7 @@ Last change:    10/11/2014
  * Helper Classes
  */
 .g-line-height-lg {
-  line-height: 1.8;
+  line-height: 1.6;
 }
 /* 
  * Colors
@@ -6194,7 +6194,7 @@ Last change:    10/11/2014
   * Body Colors
   */
 .global-color_sun .global-text-color {
-  color: #661c78;
+  color: #8A2BE2; /* #661c78; */
 }
 .global-color_sun .scrolltop:hover {
   background-color: #fcae11;
@@ -6615,7 +6615,7 @@ body {
 }
 @media (min-width: 992px) {
   .cover-container {
-    width: 700px;
+    width: 800px;
   }
 }
 /*
@@ -6628,9 +6628,10 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
 }
 .title__sub-text {
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
+  margin-bottom: 50px;
 }
 .title + .title__sub-text {
   margin-top: -40px;
@@ -6709,10 +6710,10 @@ body {
  */
 .site-wrapper-welcome__date {
   margin: 0 auto 30px;
-  font-size: 78px;
+  font-size: 36px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
 }
 .site-wrapper-welcome__title {
@@ -6732,7 +6733,7 @@ body {
 }
 .site-wrapper-welcome__summary {
   margin-bottom: 60px;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
 }
