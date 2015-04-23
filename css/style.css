@@ -6380,7 +6380,7 @@ body {
  * Navbar :: Inverse
  */
 .navbar-inverse.navbar-faded {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
 }
 .navbar-inverse {
   border: 0;
@@ -6710,7 +6710,7 @@ body {
  */
 .site-wrapper-welcome__date {
   margin: 0 auto 30px;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   text-align: center;
   /*text-transform: uppercase;*/
@@ -6718,7 +6718,7 @@ body {
 }
 .site-wrapper-welcome__title {
   margin: 0 auto 30px;
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -6789,7 +6789,6 @@ body {
   position: relative;
   border: 3px solid rgba(255, 255, 255, 0.5);
   margin-bottom: 10px;
-  cursor: pointer;
 }
 .portfolio__item a {
   color: inherit;
