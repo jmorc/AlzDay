@@ -43,22 +43,6 @@
     <!-- Backstretch Carousel -->
     <div class="backstretch-carousel"></div>
 
-    <!-- Sidebar Menu - this site prob has no side bar -->
-<!--     <div class="sidebar-btn hidden"><i class="fa fa-bars fa-2x"></i></div>
-    <div class="sidebar-overlay hidden"></div>
-    <div class="sidebar sidebar-menu hidden">
-      <div class="sidebar-menu__title"></div> 
-      <ul class="sidebar-menu__ul">
-        <li><a href="#welcome"><i class="fa fa-home fa-fw"></i> Welcome</a></li>
-        <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i> About</a></li>
-        <li><a href="#portfolio"><i class="fa fa-image fa-fw"></i> Portfolio</a></li>
-        <li><a href="#pricing"><i class="fa fa-money fa-fw"></i> Pricing</a></li>
-        <li><a href="#team"><i class="fa fa-users fa-fw"></i> Team</a></li>
-        <li><a href="#features"><i class="fa fa-asterisk fa-fw"></i> Features</a></li>
-        <li><a href="#contact-us"><i class="fa fa-envelope fa-fw"></i> Contact Us</a></li>
-      </ul>
-    </div>
- -->
     <!-- Top Menu -->
     <div class="navbar navbar-fixed-top navbar-inverse navbar-faded navbar-transparent" role="navigation">
       <div class="container">
@@ -85,7 +69,8 @@
     </div>
 
     <!-- Welcome screen -->
-    <div class="site-wrapper site-wrapper_welcome screen" id="welcome">
+    <div class="site-wrapper site-wrapper_welcome screen" 
+         id="welcome" style="margin-top:75px">
       <div class="site-wrapper__inner">
         <div class="cover-container">
           <h1 class="site-wrapper-welcome__title">
@@ -100,13 +85,14 @@
           <p class="title__sub-text">
             Nearly 40% of Americans over the age of 85 suffer from Alzheimer’s disease.<br>
             1 out of every 3 senior citizens die with Alzheimer’s or another dementia.<br>
-            The chance of Great Odin’s Ghost Jr. beating Swimmer’s Ear is 1 in 14.
+            The chance of Great Odin’s Ghost Jr. beating Swimmer’s Ear is 1 in 14.<br>
+            The odds are against us.
           </p>
-          <div class="text-center">
-            <a class="btn btn-transparent site-wrapper-welcome__btn" href="#about">
-              Find Out More
-            </a>
-          </div>
+        <div class="cover-container">
+          <p class="about-item__summary g-line-height-lg">
+            Help support Alzheimer’s disease care and research (not to mention Great Odin’s Ghost Jr.) during the Ed Lingsch Derby Day Alzheimer’s Benefit. Lingsch Realty is hosting a party at the races in honor of Ed Lingsch, Brain Awareness month, and the millions of individuals and families affected by Alzheimer’s Disease every day. Satisfy your culinary urges with a delicious buffet lunch, your risk-taking urges with live horse races, and your urge to covertly one-up your peers with a silent auction featuring 49ers tickets, a Lake Tahoe getaway, and more. All proceeds from the event will be donated to the Alzheimer’s Association.
+          </p>
+        </div>
         </div>
       </div>
     </div>
@@ -114,31 +100,26 @@
     <!-- About screen -->
     <div class="site-wrapper site-wrapper_about screen" id="about">
       <div class="site-wrapper__inner">
-        <div class="cover-container">
-          
-          <div class="about-item__header">
-                  <h3 class="about-item-header__title">The odds are against us.</h3>
-                  <div class="clearfix"></div>
-                </div> 
+ <!--        <div class="cover-container">
           <p class="about-item__summary g-line-height-lg">
             Help support Alzheimer’s disease care and research (not to mention Great Odin’s Ghost Jr.) during the Ed Lingsch Derby Day Alzheimer’s Benefit. Lingsch Realty is hosting a party at the races in honor of Ed Lingsch, Brain Awareness month, and the millions of individuals and families affected by Alzheimer’s Disease every day. Satisfy your culinary urges with a delicious buffet lunch, your risk-taking urges with live horse races, and your urge to covertly one-up your peers with a silent auction featuring 49ers tickets, a Lake Tahoe getaway, and more. All proceeds from the event will be donated to the Alzheimer’s Association.
           </p>
-        </div>
+        </div> -->
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <div class="about__item">
+              <div>
                 <div class="about-item__header">
                   <h3 class="about-item-header__title">Ed Lingsch</h3>
                   <div class="clearfix"></div>
                 </div>
-                <div class="about-item__summary g-line-height-lg">
+                <div class="g-line-height-lg">
                   Ed was born in San Francisco on December 26, 1913 and passed away on November 12, 2011 at the age of 97 after developing Alzheimer’s Disease. He was a graduate of Cogswell Polytechnical College and longtime member of the Italian American Social Club of San Francisco. In 1952 he founded San Francisco real estate company Lingsch Realty where he worked until he retired at the age of 94. For his last 49 years, he resided in Millbrae. Ed was a loving and generous father and grandfather who always had a joke to tell and a smile on his face. He will be remembered for his sense of humor, his strong work ethic, and his love of poker and the track.
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="about__item">
+              <div>
                 <div class="about-item__header">
                   <h3 class="about-item-header__title">
                     Golden Gate Fields
@@ -151,7 +132,7 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="about__item">
+              <div>
                 <div class="about-item__header">
                   <div class="about-item-header__icon">
                     <!-- <i class="fa fa-envelope-o"></i> -->
@@ -304,243 +285,57 @@
                   </div>
                 </div>
               </div>
-            </div>            
+            </div> 
+
+            <div class="row">
+            <div class="col-md-offset-2 col-sm-offset-2 col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <div>
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/lobster.jpg" alt="..."
+                         style="width: 100%; height: 100%">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <h3 class="portfolio-mask-inner__title animated fadeInUp">Lobster Dinner Gift Basket</h3>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            Enjoy a $100 gift certificate to East Coast Gourmet, your favorite spot for fresh seafood and Maine lobster online.  They offer gourmet food deliver including New England clam chowder, award-winning lobster bisque, lobster tails, and crab cakes.  Also included are two cloth lobster bibs, five seafood shellers and eight seafood forks.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-alt">
+              <div class="portfolio__item">
+                <div>
+                  <div class="portfolio-item__img">
+                    <img class="img-responsive" src="img/LuleMae.jpg" alt="..."
+                         style="width: 100%; height: 100%">
+                    <div class="portfolio-item-img__mask">
+                      <div class="portfolio-mask__container">
+                        <div class="portfolio-mask__inner">
+                          <h3 class="portfolio-mask-inner__title animated fadeInUp">Lula Mae Gift Basket</h3>
+                          <p class="portfolio-mask-inner__summary animated fadeInDown">
+                            Not only is the colorful basket a treat in itself, but Lula Mae, voted Best Boutique in Pasadena, one of the Top Card Shops in L.A. and a must see by the New York Times, "36 hours - West Coast Edition" has filled it with amazing goodies like a Voluspa candle, Little Flower Candy Co. sea salt caramels, Go Be Lovely soap, Be Happy pop-up greeting cards and more.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Pricing screen -->
-    <!-- <div class="site-wrapper site-wrapper_pricing screen" id="pricing">
-      <div class="site-wrapper__inner">
-        <div class="cover-container">
-          <h2 class="title">
-            That's about <span class="global-text-color">6 cups</span> of coffee
-          </h2>
-          <p class="title__sub-text">
-            Three pricing plans to fit a project of any size. Painless refund guaranteed.
-          </p>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="pricing__item">
-                <div class="pricing-item__header">
-                  <div class="pricing-item-header__price">
-                    $10
-                  </div>
-                  <h3 class="pricing-item-header__title">
-                    Single<br />Application
-                  </h3>
-                </div>
-                <div class="pricing-item__body">
-                  <p class="g-line-height-lg">
-                    Pellentesque id commodo nisl, in semper orci. Donec aliquet quam vel porttitor laoreet.
-                  <ul class="pricing-item-body__list fa-ul">
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Integer mollis libero et purus auctor gravida
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nam in enim eu dui elementum dignissim at sed
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Vestibulum vitae orci id purus viverra accumsan
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nunc sit amet orci sed elit mollis vulputate quis
-                    </li>
-                  </ul>
-                  <div class="btn-white-outline">
-                    <a class="btn btn-white" href="#">Purchase now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="pricing__item">
-                <div class="pricing-item__header">
-                  <div class="pricing-item-header__price">
-                    $50
-                  </div>
-                  <h3 class="pricing-item-header__title">
-                    Multiple<br />Applications
-                  </h3>
-                </div>
-                <div class="pricing-item__body">
-                  <p class="g-line-height-lg">
-                    Pellentesque id commodo nisl, in semper orci. Donec aliquet quam vel porttitor laoreet.
-                  <ul class="pricing-item-body__list fa-ul">
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Integer mollis libero et purus auctor gravida
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nam in enim eu dui elementum dignissim at sed
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Vestibulum vitae orci id purus viverra accumsan
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nunc sit amet orci sed elit mollis vulputate quis
-                    </li>
-                  </ul>
-                  <div class="btn-white-outline">
-                    <a class="btn btn-white" href="#">Purchase now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="pricing__item">
-                <div class="pricing-item__header">
-                  <div class="pricing-item-header__price">
-                    $100
-                  </div>
-                  <h3 class="pricing-item-header__title">
-                    Extended<br />License
-                  </h3>
-                </div>
-                <div class="pricing-item__body">
-                  <p class="g-line-height-lg">
-                    Pellentesque id commodo nisl, in semper orci. Donec aliquet quam vel porttitor laoreet.
-                  <ul class="pricing-item-body__list fa-ul">
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Integer mollis libero et purus auctor gravida
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nam in enim eu dui elementum dignissim at sed
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Vestibulum vitae orci id purus viverra accumsan
-                    </li>
-                    <li>
-                      <i class="fa-li fa fa-check"></i>
-                      Nunc sit amet orci sed elit mollis vulputate quis
-                    </li>
-                  </ul>
-                  <div class="btn-white-outline">
-                    <a class="btn btn-white" href="#">Purchase now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Team screen -->
-    <!-- <div class="site-wrapper site-wrapper_team screen" id="team">
-      <div class="site-wrapper__inner">
-        <div class="cover-container">
-          <h2 class="title">
-            They've made this possible
-          </h2>
-          <p class="title__sub-text">
-            A team of hard-working enthusiastic people who helped this product come to life.
-          </p>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <!-- Carousel -->
-              <!-- <div id="team__carousel" class="carousel slide" data-ride="carousel" data-interval="9999999">
-
-                <!-- Indicators -->
-                <!-- <ol class="carousel-indicators">
-                  <li data-target="#team__carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#team__carousel" data-slide-to="1"></li>
-                  <li data-target="#team__carousel" data-slide-to="2"></li>
-                </ol> -->
-
-                <!-- Wrapper for slides -->
-                <!-- <div class="carousel-inner"> -->
-                  <!-- Item 1 -->
-                  <!-- <div class="item active">
-                    <div class="cover-container">
-                      <div class="team-member__icon">
-                        <i class="fa fa-male fa-2x"></i>
-                      </div>
-                      <h2 class="team-member__title global-text-color">
-                        John Doe
-                      </h2>
-                      <h2 class="team-member__title">
-                        Project Manager
-                      </h2>
-                      <p class="team-member__summary g-line-height-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod. Donec molestie odio sed leo interdum ultrices.
-                      </p>
-                      <div class="text-center">
-                        <a href="#" class="btn btn-transparent team-member__btn">Contact Me</a>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Item 2 -->
-                  <!-- <div class="item">
-                    <div class="cover-container">
-                      <div class="team-member__icon">
-                        <i class="fa fa-apple fa-2x"></i>
-                      </div>
-                      <h2 class="team-member__title global-text-color">
-                        Judy Doe
-                      </h2>
-                      <h2 class="team-member__title">
-                        iOS Developer
-                      </h2>
-                      <p class="team-member__summary g-line-height-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod. Donec molestie odio sed leo interdum ultrices.
-                      </p>
-                      <div class="text-center">
-                        <a href="#" class="btn btn-transparent team-member__btn">Contact Me</a>
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- Item 3 -->
-                  <!-- <div class="item">
-                    <div class="cover-container">
-                      <div class="team-member__icon">
-                        <i class="fa fa-android fa-2x"></i>
-                      </div>
-                      <h2 class="team-member__title global-text-color">
-                        Richard Roe
-                      </h2>
-                      <h2 class="team-member__title">
-                        Android Developer
-                      </h2>
-                      <p class="team-member__summary g-line-height-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod. Donec molestie odio sed leo interdum ultrices.
-                      </p>
-                      <div class="text-center">
-                        <a href="#" class="btn btn-transparent team-member__btn">Contact Me</a>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-
-                <!-- Controls -->
-                <!-- <a class="left carousel-control" href="#team__carousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#team__carousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  -->
 
     <!-- Contact screen -->
     <div class="site-wrapper site-wrapper_contact screen" id="contact-us">
@@ -747,5 +542,33 @@
     <script src="js/scrolltopcontrol.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+    // Check if a new cache is available on page load.
+    window.addEventListener('load', function(e) {
+        window.applicationCache.addEventListener('updateready', function(e) {
+           if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+               // Browser downloaded a new app cache. Swap it in and reload the page.
+               window.applicationCache.swapCache();
+               if (confirm('A new version of this site is available. Load it?')) {
+                     window.location.reload();
+               }
+           } else {
+                 // Manifest didn't changed. Nothing new to server.
+           }
+        }, false);
+    }, false);
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-63016703-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
   </body>
 </html>
